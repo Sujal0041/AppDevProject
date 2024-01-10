@@ -1,0 +1,115 @@
+﻿@page "/members"
+@layout MainLayout
+
+@inject BisleriumCafe.Data.Repositories.Repository<Member> MemberRepository;
+@inject ISnackbar Snackbar
+@inject IDialogService DialogService
+@inject BisleriumCafe.Data.Services.AuthService AuthService
+
+<MudTable Elevation="0"
+          Items="@Elements"
+          FixedHeader="@Fixed_header"
+          FixedFooter="@Fixed_footer"
+          Height="@(Fixed_header || Fixed_footer ? "calc(100vh - 64px - 64px - 64px)" : "")"
+          Dense="@Dense"
+          Hover="@Hover"
+          ReadOnly="@ReadOnly"
+          CanCancelEdit="@VanCancelEdit"
+          Filter="new Func<Member,bool>(FilterFunc)"
+          SortLabel="Sort By"
+          RowsPerPage="25"
+          CommitEditTooltip="Commit Edit"
+          HorizontalScrollbar="true"
+          OnCommitEditClick="@(() => Snackbar.Add("Member Updated!", Severity.Success))"
+          RowEditPreview="BackupItem"
+          RowEditCancel="ResetItemToOriginalValues"
+          IsEditRowSwitchingBlocked="@BlockSwitch"
+          ApplyButtonPosition="@ApplyButtonPosition"
+          EditButtonPosition="@EditButtonPosition"
+          EditTrigger="@EditTrigger">
+    <ToolBarContent>
+        <MudFab class="me-4" StartIcon="@Icons.Material.Filled.Add" Color="Color.Primary" Label="Add Member" DisableElevation="true" OnClick="AddDialog" />
+        <MudSpacer />
+        <MudTextField @bind-Value="SearchString" Placeholder="Search" Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" IconSize="Size.Medium" Class="mt-0" Clearable="true"></MudTextField>
+    </ToolBarContent>
+    <HeaderContent>
+        <MudTh Style="white-space: nowrap;"><MudTableSortLabel SortBy="new Func<Member, object>(x => x.Id)">ID</MudTableSortLabel></MudTh>
+        <MudTh Style="white-space: nowrap;"><MudTableSortLabel SortBy="new Func<Member, object>(x => x.UserName)">User Name</MudTableSortLabel></MudTh>
+        <MudTh Style="white-space: nowrap;"><MudTableSortLabel SortBy="new Func<Member, object>(x => x.Phone)">Phone</MudTableSortLabel></MudTh>
+        <MudTh Style="white-space: nowrap;"><MudTableSortLabel SortBy="new Func<Member, object>(x => x.FullName)">Full Name</MudTableSortLabel></MudTh>
+        <MudTh Style="white-space: nowrap;"><MudTableSortLabel SortBy="new Func<Member, object>(x => x.IsRegularCustomer)">Regular Customer</MudTableSortLabel></MudTh>
+        <MudTh Style="white-space: nowrap;"><MudTableSortLabel SortBy="new Func<Member, object>(x => x.PurchasesCount)">Purchases Count</MudTableSortLabel></MudTh>
+        <MudTh Style="white-space: nowrap;"><MudTableSortLabel SortBy="new Func<Member, object>(x => x.FreeCoffeeRedemptionCount)">Free Coffee Redemption Count</MudTableSortLabel></MudTh>
+        @* <MudTh Style="white-space: nowrap;"><MudTableSortLabel SortBy="new Func<Member, object>(x => x.LastPurchaseDate)">Last Purchase Date</MudTableSortLabel></MudTh> *@
+        <MudTh Style="white-space: nowrap;"><MudTableSortLabel SortBy="new Func<Member, object>(x => x.IsValid)">Membership Validity</MudTableSortLabel></MudTh>
+        <MudTh Style="white-space: nowrap;"><MudTableSortLabel SortBy="new Func<Member, object>(x => x.MembershipStartDate)">Membership Start Date</MudTableSortLabel></MudTh>
+    </HeaderContent>
+
+    <RowTemplate>
+        <MudTd Class="row-cols-md-auto" DataLabel="ID"><MudChip>@context.Id.ToString().Substring(0, 8)</MudChip></MudTd>
+        <MudTd DataLabel="User Name">@context.UserName</MudTd>
+        <MudTd DataLabel="Phone">@context.Phone</MudTd>
+        <MudTd Style="white-space: nowrap;" DataLabel="Full Name">@context.FullName</MudTd>
+        <MudTd DataLabel="Regular Customer">
+            @if (@context.IsRegularCustomer)
+            {
+                <text>Yes</text>
+            }
+            else
+            {
+                <text>No</text>
+            }
+        </MudTd>
+        <MudTd DataLabel="Purchases Count">@context.PurchasesCount</MudTd>
+        <MudTd DataLabel="Free Coffee Redemption Count">@context.FreeCoffeeRedemptionCount</MudTd>
+        @* <MudTd Style="white-space: nowrap;" DataLabel="Last Purchase Date">@context.LastPurchaseDate.ToString("yyyy-MM-dd")</MudTd> *@
+            <MudTd DataLabel="Membership Validity">
+                @if (@context.IsValid)
+            {
+                <text>Yes</text>
+            }
+            else
+            {
+                <text>No</text>
+            }
+        </MudTd>
+        <MudTd Style="white-space: nowrap;" DataLabel="Membership Start Date">@context.MembershipStartDate.ToString("yyyy-MM-dd")</MudTd>
+    </RowTemplate>
+
+
+    <RowEditingTemplate>
+        <MudTd DataLabel="ID"><MudChip>@context.Id.ToString().Substring(0, 8)</MudChip></MudTd>
+        <MudTd DataLabel="User Name">@context.UserName</MudTd>
+        <MudTd DataLabel="Phone">
+            <MudTextField @bind-Value="@context.Phone" Required />
+        </MudTd>
+        <MudTd DataLabel="Full Name">
+            <MudTextField @bind-Value="@context.FullName" Required />
+        </MudTd>
+        <MudTd DataLabel="Is Regular Customer">
+            <MudSwitch @bind-Checked="@context.IsRegularCustomer" Color="Color.Primary" Label="Regular Customer" />
+        </MudTd>
+        <MudTd DataLabel="Purchases Count">
+            <MudNumericField @bind-Value="@context.PurchasesCount" />
+        </MudTd>
+        <MudTd DataLabel="Free Coffee Redemption Count">
+            <MudNumericField @bind-Value="@context.FreeCoffeeRedemptionCount" />
+        </MudTd>
+        @* <MudTd Style="white-space: nowrap;" DataLabel="Last Purchase Date">
+            <MudDatePicker @bind-Value="@context.LastPurchaseDate" />
+        </MudTd> *@
+         <MudTd DataLabel="Membership Validity">
+             <MudSwitch @bind-Checked="@context.IsValid" Color="Color.Primary" Label="Membership Validity" />
+         </MudTd>
+        <MudTd Style="white-space: nowrap;" DataLabel="Membership Start Date">
+             <MudDatePicker @bind-Value="@context.MembershipStartDate" PickerVariant="PickerVariant.Dialog" Editable="true" />
+         </MudTd>
+    </RowEditingTemplate>
+
+
+    <PagerContent>
+        <MudTablePager PageSizeOptions="new int[] { 25, 50, 75, 100}" />
+    </PagerContent>
+</MudTable>
+
+

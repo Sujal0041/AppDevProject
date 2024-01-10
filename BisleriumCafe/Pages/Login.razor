@@ -1,0 +1,28 @@
+﻿@page "/login"
+@layout EmptyLayout
+
+@inject BisleriumCafe.Data.Services.AuthService _authService
+@inject Microsoft.AspNetCore.Components.NavigationManager _navigationManager
+
+@inject ISnackbar SnackBar;
+
+<SeedButton SetSeedUser="SetSeedUser" />
+
+<div style="height: calc(100vh - 64px); position: relative; display: flex; align-items: center; justify-content: center;">
+    <img src="/Images/coffee1.jpg" alt="bgimg" style="position: absolute; width: 100%; height: 100%; object-fit: cover;">
+
+    <MudPaper Class="pa-12" Width="90vh" Style="border-radius: 12px; position: relative; z-index: 1; border: 2px solid red; opacity: 1;">
+        <MudStack Class="mb-8" Row="true" AlignItems="AlignItems.Center" Justify="Justify.Center" Spacing="2">
+            <MudIcon Icon="@Icons.Material.Filled.Coffee" Color="Color.Primary" Size="Size.Large" />
+            <MudText Color="Color.Primary" Typo="Typo.h5" Style="font-weight: bolder">Bislerium Café</MudText>
+        </MudStack>
+        <MudForm @ref="Form">
+            <MudTextField T="string" Label="Password" @bind-Value="@Password" Required="true" InputType="@PasswordInput" Adornment="Adornment.End" AdornmentIcon="@PasswordInputIcon" OnAdornmentClick="ButtonTestclick" AdornmentAriaLabel="Show Password" />
+            <MudStack Row="true" Class="mt-8 justify-space-between">
+                <MudCheckBox @bind-Value="@StayLoggedIn" Label="Stay logged in" Color="Color.Primary"></MudCheckBox>
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" DisableElevation="true" OnClick="@LoginHandler" Style="border-radius: 4px;">Login</MudButton>
+
+            </MudStack>
+        </MudForm>
+    </MudPaper>
+</div>

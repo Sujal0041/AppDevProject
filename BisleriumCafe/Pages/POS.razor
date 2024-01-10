@@ -1,0 +1,103 @@
+﻿@page "/pos"
+@layout MainLayout
+@inject BisleriumCafe.Data.Repositories.Repository<Product> ProductRepository;
+@inject BisleriumCafe.Data.Repositories.Repository<Member> MemberRepository;
+@inject BisleriumCafe.Data.Repositories.Repository<Transaction> TransactionRepository;
+@inject ISnackbar Snackbar
+
+@using MudBlazor
+
+
+<MudContainer>
+    <MudGrid>
+        <!-- Product Cards Column -->
+        <MudItem xs="12" md="8">
+            <MudGrid>
+                @foreach (var product in Products)
+                {
+                    <MudItem>
+                        <MudCard Class="product-card">
+                            <MudCardMedia>
+                                @* <img src="@product.ImageUrl" alt="@product.Name" /> *@
+                            </MudCardMedia>
+                            <MudCardContent>
+                                <MudText Typo="Typo.h6">@product.Name</MudText>
+                                <MudText Typo="Typo.subtitle2">Price: Rs. @product.Price</MudText>
+                            </MudCardContent>
+                            <MudCardActions>
+                                <MudButton Variant="Variant.Outlined" OnClick="() => AddToCart(product)">Add to Cart</MudButton>
+                            </MudCardActions>
+                        </MudCard>
+
+                    </MudItem>
+                }
+            </MudGrid>
+        </MudItem>
+
+        <!-- Shopping Cart Column -->
+        <MudItem xs="12" md="4">
+            <MudPaper Class="shopping-cart">
+                <MudText Typo="Typo.h5">Shopping Cart</MudText>
+                <ul>
+                    @foreach (var cartItem in ShoppingCart)
+                    {
+                        <li>
+                            <MudIconButton Icon="@Icons.Material.Filled.Remove" Color="Color.Primary" OnClick="() => DecreaseQuantity(cartItem)">-</MudIconButton>
+                            @cartItem.Product.Name - Rs. @cartItem.Product.Price - Quantity: @cartItem.Quantity
+                            <MudIconButton Icon="@Icons.Material.Filled.Add" Color="Color.Primary" OnClick="() => IncreaseQuantity(cartItem)">+</MudIconButton>
+                        </li>
+                    }
+                </ul>
+
+
+
+                <!-- Check if the member is found and regular -->
+                @if (FoundMember != null)
+                {
+                    if (isRegular)
+                    {
+                        <MudText Typo="Typo.body1" Class="mt-2">Subtotal: <span class="h6">Rs. @CalculateTotal()</span></MudText>
+                        <MudText Typo="Typo.body1" Class="mt-2">Discount: - <span class="h6">Rs. @CalculateRegularCustomerDiscount()</span></MudText>
+                    }
+
+                    <!-- Horizontal line -->
+                    <hr class="mt-2 mb-2" />
+
+                    <MudText Typo="Typo.h5">Total: <span class="h6">Rs. @CalculateTotalWithDiscount()</span></MudText>
+                }
+                else
+                {
+                    <MudText Typo="Typo.h5">Current Total: <span class="h6">Rs. @CalculateTotal()</span></MudText>
+                }
+
+
+                <!-- Text input for member username or phone number -->
+                <MudTextField Label="Member Username or Phone" @bind-Value="MemberInput" />
+
+                <!-- Button for searching member -->
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="SearchMember">Search Member</MudButton>
+
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="Checkout">Checkout</MudButton>
+            </MudPaper>
+        </MudItem>
+
+
+    </MudGrid>
+</MudContainer>
+
+
+<style>
+    .product-card {
+        border: 1px solid #ddd;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        padding: 30px;
+        margin: 8px;
+        text-align: center;
+    }
+
+    .shopping-cart {
+        background-color: #green;
+        padding: 20px;
+        border: 1px solid #ddd;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+</style>
