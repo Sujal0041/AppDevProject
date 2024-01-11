@@ -10972,11 +10972,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\Source\\Repos\\bislerium\\BisleriumCafe\\BisleriumCafe.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\Documents\\GitHub\\AppDevProject\\BisleriumCafe\\BisleriumCafe.csproj",
       "projectName": "BisleriumCafe",
-      "projectPath": "C:\\Users\\Lenovo\\Source\\Repos\\bislerium\\BisleriumCafe\\BisleriumCafe.csproj",
+      "projectPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\AppDevProject\\BisleriumCafe\\BisleriumCafe.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lenovo\\Source\\Repos\\bislerium\\BisleriumCafe\\obj\\",
+      "outputPath": "C:\\Users\\Lenovo\\Documents\\GitHub\\AppDevProject\\BisleriumCafe\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

@@ -10,14 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>5D3039E5-9978-4F30-A5CB-0CD843B5487B</PackageIdentityName>
     <PackageIdentityPublisher>CN=bishalgc</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>AF7CB28DD7CF0125BE2BA4C537DD1B285CEA2F2235F2B1117E80A4442C295742</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>5D3039E5-9978-4F30-A5CB-0CD843B5487B_1.0.1.0_x64__1fbbga71p8hha</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>5D3039E5-9978-4F30-A5CB-0CD843B5487B_1fbbga71p8hha!App</RegisteredUserModeAppID>
@@ -26,32 +26,32 @@
     <RegisteredVersion>1.0.1.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-10T18:52:01.533</Modified>
+      <Modified>2024-01-11T05:18:09.023</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-10T18:31:21.644</Modified>
+      <Modified>2024-01-11T05:18:08.717</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BisleriumCafe.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BisleriumCafe.runtimeconfig.json">
       <PackagePath>BisleriumCafe.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-10T18:36:53.171</Modified>
+      <Modified>2024-01-11T05:18:08.488</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BisleriumCafe.dll">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BisleriumCafe.dll">
       <PackagePath>BisleriumCafe.dll</PackagePath>
-      <Modified>2024-01-10T18:52:00.819</Modified>
+      <Modified>2024-01-11T05:18:07.355</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>BisleriumCafe.exe</PackagePath>
-      <Modified>2024-01-10T18:52:00.825</Modified>
+      <Modified>2024-01-11T05:18:07.374</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BisleriumCafe.deps.json">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BisleriumCafe.deps.json">
       <PackagePath>BisleriumCafe.deps.json</PackagePath>
-      <Modified>2024-01-10T18:36:53.070</Modified>
+      <Modified>2024-01-11T05:18:08.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1129,7 +1129,7 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-06-30T11:05:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2024-01-10T16:50:11.844</Modified>
     </AppxPackagedFile>
@@ -1313,311 +1313,311 @@
       <PackagePath>wwwroot\_content\PSC.Blazor.Components.Chartjs\PSC.Blazor.Components.Chartjs.bundle.scp.css</PackagePath>
       <Modified>2023-11-13T13:23:34.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\BisleriumCafe.styles.css">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\BisleriumCafe.styles.css">
       <PackagePath>wwwroot\BisleriumCafe.styles.css</PackagePath>
       <Modified>2024-01-10T16:50:18.348</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\css\app.css">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
       <Modified>2024-01-10T16:50:11.857</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\css\bootstrap\bootstrap.min.css">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\css\bootstrap\bootstrap.min.css">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
       <Modified>2024-01-10T16:50:11.857</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\css\bootstrap\bootstrap.min.css.map">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\css\bootstrap\bootstrap.min.css.map">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css.map</PackagePath>
       <Modified>2024-01-10T16:50:11.859</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css">
       <PackagePath>wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css</PackagePath>
       <Modified>2024-01-10T16:50:11.861</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\css\open-iconic\font\fonts\open-iconic.eot">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\css\open-iconic\font\fonts\open-iconic.eot">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.eot</PackagePath>
       <Modified>2024-01-10T16:50:11.862</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\css\open-iconic\font\fonts\open-iconic.otf">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\css\open-iconic\font\fonts\open-iconic.otf">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.otf</PackagePath>
       <Modified>2024-01-10T16:50:11.862</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\css\open-iconic\font\fonts\open-iconic.svg">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\css\open-iconic\font\fonts\open-iconic.svg">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.svg</PackagePath>
       <Modified>2024-01-10T16:50:11.863</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.ttf</PackagePath>
       <Modified>2024-01-10T16:50:11.863</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\css\open-iconic\font\fonts\open-iconic.woff">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\css\open-iconic\font\fonts\open-iconic.woff">
       <PackagePath>wwwroot\css\open-iconic\font\fonts\open-iconic.woff</PackagePath>
       <Modified>2024-01-10T16:50:11.864</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\css\open-iconic\FONT-LICENSE">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\css\open-iconic\FONT-LICENSE">
       <PackagePath>wwwroot\css\open-iconic\FONT-LICENSE</PackagePath>
       <Modified>2024-01-10T16:50:11.860</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\css\open-iconic\ICON-LICENSE">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\css\open-iconic\ICON-LICENSE">
       <PackagePath>wwwroot\css\open-iconic\ICON-LICENSE</PackagePath>
       <Modified>2024-01-10T16:50:11.860</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\css\open-iconic\README.md">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\css\open-iconic\README.md">
       <PackagePath>wwwroot\css\open-iconic\README.md</PackagePath>
       <Modified>2024-01-10T16:50:11.860</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\favicon.ico">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\favicon.ico">
       <PackagePath>wwwroot\favicon.ico</PackagePath>
       <Modified>2024-01-10T16:50:11.864</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\Images\coffee.jpg">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\Images\coffee.jpg">
       <PackagePath>wwwroot\Images\coffee.jpg</PackagePath>
       <Modified>2024-01-10T16:39:53.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\Images\coffee1.jpg">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\Images\coffee1.jpg">
       <PackagePath>wwwroot\Images\coffee1.jpg</PackagePath>
       <Modified>2024-01-10T17:48:40.815</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\Images\dotnet_bot.svg">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\Images\dotnet_bot.svg">
       <PackagePath>wwwroot\Images\dotnet_bot.svg</PackagePath>
       <Modified>2024-01-10T16:50:11.844</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\wwwroot\index.html">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\wwwroot\index.html">
       <PackagePath>wwwroot\index.html</PackagePath>
       <Modified>2024-01-10T16:50:11.864</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2024-01-10T16:50:19.370</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2024-01-10T16:50:19.379</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2024-01-10T16:50:19.393</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2024-01-10T16:50:19.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2024-01-10T16:50:19.487</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2024-01-10T16:50:11.842</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2024-01-10T17:49:04.769</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2024-01-10T17:49:04.942</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2024-01-10T17:49:04.949</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2024-01-10T17:49:04.957</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2024-01-10T17:49:04.968</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2024-01-10T17:49:05.015</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2024-01-10T17:49:04.819</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2024-01-10T17:49:04.823</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2024-01-10T17:49:04.831</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2024-01-10T17:49:04.825</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2024-01-10T17:49:04.826</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2024-01-10T17:49:04.806</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2024-01-10T17:49:04.808</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2024-01-10T17:49:04.818</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2024-01-10T17:49:04.811</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2024-01-10T17:49:04.813</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2024-01-10T17:49:04.779</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2024-01-10T17:49:04.782</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2024-01-10T17:49:04.784</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2024-01-10T17:49:04.786</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2024-01-10T17:49:04.790</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2024-01-10T17:49:04.793</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2024-01-10T17:49:04.795</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2024-01-10T17:49:04.804</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2024-01-10T17:49:04.797</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2024-01-10T17:49:04.798</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2024-01-10T17:49:04.864</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2024-01-10T17:49:04.869</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2024-01-10T17:49:04.874</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2024-01-10T17:49:04.878</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2024-01-10T17:49:04.892</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2024-01-10T17:49:04.847</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2024-01-10T17:49:04.848</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2024-01-10T17:49:04.851</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2024-01-10T17:49:04.855</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2024-01-10T17:49:04.862</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2024-01-10T17:49:04.834</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2024-01-10T17:49:04.836</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2024-01-10T17:49:04.838</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2024-01-10T17:49:04.840</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2024-01-10T17:49:04.844</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2024-01-10T17:49:04.896</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2024-01-10T17:49:04.902</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2024-01-10T17:49:04.908</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2024-01-10T17:49:04.916</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2024-01-10T17:49:04.935</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\coffee.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\coffee.scale-100.jpg">
       <PackagePath>coffee.scale-100.jpg</PackagePath>
       <Modified>2024-01-10T16:39:53.163</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\coffee1.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\coffee1.scale-100.jpg">
       <PackagePath>coffee1.scale-100.jpg</PackagePath>
       <Modified>2024-01-10T17:48:40.815</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2024-01-10T17:49:04.755</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2024-01-10T17:49:04.762</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2024-01-10T17:49:04.771</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2024-01-10T17:49:04.787</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Lenovo\source\repos\bislerium\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2024-01-10T17:49:04.820</Modified>
     </AppxPackagedFile>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GA7Cyx+THc8EzJgJLkYNSjOWwXkC/AehIf2gS4iabF+1iY20qP88I4nQZgweUUKcbGCiwdy3DW5cpv8a2F6lOA==",
+  "dgSpecHash": "lSdH11i8RuF4298aLYEszyOKW0ovA8TV6yuW8kTiXrKOHHgFNwXGWxh9YAGBJvB8tBjmSCFHYq2mOx3qOMctLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\source\\repos\\bislerium\\BisleriumCafe\\BisleriumCafe.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Documents\\GitHub\\AppDevProject\\BisleriumCafe\\BisleriumCafe.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\bogus\\35.3.0\\bogus.35.3.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
