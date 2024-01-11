@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-01-11T05:18:09.023</Modified>
+      <Modified>2024-01-11T05:32:12.619</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-01-11T05:18:08.717</Modified>
+      <Modified>2024-01-11T05:32:12.380</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BisleriumCafe.runtimeconfig.json">
       <PackagePath>BisleriumCafe.runtimeconfig.json</PackagePath>
-      <Modified>2024-01-11T05:18:08.488</Modified>
+      <Modified>2024-01-11T05:24:17.566</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BisleriumCafe.dll">
       <PackagePath>BisleriumCafe.dll</PackagePath>
-      <Modified>2024-01-11T05:18:07.355</Modified>
+      <Modified>2024-01-11T05:32:11.743</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>BisleriumCafe.exe</PackagePath>
-      <Modified>2024-01-11T05:18:07.374</Modified>
+      <Modified>2024-01-11T05:32:11.750</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lenovo\Documents\GitHub\AppDevProject\BisleriumCafe\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BisleriumCafe.deps.json">
       <PackagePath>BisleriumCafe.deps.json</PackagePath>
-      <Modified>2024-01-11T05:18:08.382</Modified>
+      <Modified>2024-01-11T05:24:17.480</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Lenovo\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.11\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>

@@ -7,7 +7,6 @@
 
 @using MudBlazor
 
-
 <MudContainer>
     <MudGrid>
         <!-- Product Cards Column -->
@@ -24,11 +23,14 @@
                                 <MudText Typo="Typo.h6">@product.Name</MudText>
                                 <MudText Typo="Typo.subtitle2">Price: Rs. @product.Price</MudText>
                             </MudCardContent>
-                            <MudCardActions>
-                                <MudButton Variant="Variant.Outlined" OnClick="() => AddToCart(product)">Add to Cart</MudButton>
-                            </MudCardActions>
+                            <div class="button-container">
+                                <MudCardActions>
+                                    <MudButton Variant="Variant.Outlined" Color="Color.Primary" OnClick="() => AddToCart(product)">
+                                        Add to Cart
+                                    </MudButton>
+                                </MudCardActions>
+                            </div>
                         </MudCard>
-
                     </MudItem>
                 }
             </MudGrid>
@@ -37,19 +39,17 @@
         <!-- Shopping Cart Column -->
         <MudItem xs="12" md="4">
             <MudPaper Class="shopping-cart">
-                <MudText Typo="Typo.h5">Shopping Cart</MudText>
+                <MudText Typo="Typo.h5" Style="color:#8DD3BB; margin:20px; font-size:30px; text-align:center">Bislerium Cart</MudText>
                 <ul>
                     @foreach (var cartItem in ShoppingCart)
                     {
                         <li>
-                            <MudIconButton Icon="@Icons.Material.Filled.Remove" Color="Color.Primary" OnClick="() => DecreaseQuantity(cartItem)">-</MudIconButton>
+                            <MudIconButton Icon="@Icons.Material.Filled.Remove" Color="Color.Error" OnClick="() => DecreaseQuantity(cartItem)">-</MudIconButton>
                             @cartItem.Product.Name - Rs. @cartItem.Product.Price - Quantity: @cartItem.Quantity
-                            <MudIconButton Icon="@Icons.Material.Filled.Add" Color="Color.Primary" OnClick="() => IncreaseQuantity(cartItem)">+</MudIconButton>
+                            <MudIconButton Icon="@Icons.Material.Filled.Add" Color="Color.Success" OnClick="() => IncreaseQuantity(cartItem)">+</MudIconButton>
                         </li>
                     }
                 </ul>
-
-
 
                 <!-- Check if the member is found and regular -->
                 @if (FoundMember != null)
@@ -67,37 +67,64 @@
                 }
                 else
                 {
-                    <MudText Typo="Typo.h5">Current Total: <span class="h6">Rs. @CalculateTotal()</span></MudText>
+                    <MudText Typo="Typo.h5" Style="text-align:center; font-size:27px">
+                        Current Total:
+                        <br>
+                        <span class="h6">Rs. @CalculateTotal()</span>
+                    </MudText>
                 }
 
-
                 <!-- Text input for member username or phone number -->
-                <MudTextField Label="Member Username or Phone" @bind-Value="MemberInput" />
+                <MudTextField Label="Member name or number" @bind-Value="MemberInput" Class="custom-margin" />
+
 
                 <!-- Button for searching member -->
                 <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="SearchMember">Search Member</MudButton>
 
-                <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="Checkout">Checkout</MudButton>
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="Checkout">Buy</MudButton>
             </MudPaper>
         </MudItem>
-
-
     </MudGrid>
 </MudContainer>
 
-
 <style>
+    .custom-margin {
+        margin: 10px;
+    }
+
+
     .product-card {
         border: 1px solid #ddd;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        padding: 30px;
+        padding: 16px;
         margin: 8px;
         text-align: center;
+        height: 400px;
     }
 
+        .product-card:hover {
+            transform: scale(1.01);
+            cursor: pointer;
+        }
+
+    .button-container {
+        margin-top: 12px;
+        margin-bottom: 300px;
+    }
+
+        .button-container:hover {
+            transform: scale(1.01);
+            cursor: pointer;
+        }
+
     .shopping-cart {
-        background-color: #green;
         padding: 20px;
         border: 1px solid #ddd;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        height: 630px;
+    }
+
+        .shopping-cart:hover {
+            transform: scale(1.05)
+        }
 </style>
